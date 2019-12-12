@@ -30,6 +30,17 @@ Useful Mendix JavaActions
 	  saturday
 	```
 
+  - **GetNameAndSurname**
+	```
+	Receives a String that represents the person's full name and returns the equivalent of the person's name and surname.
+	Breaks the String through spaces and returns the first token concatenated with the second.
+	If the second token is 3 or less characters long, returns the third token as well.
+	Eg.
+		"Edgar Fabiano Souza Filho" => "Edgar Fabiano"
+		"Fernanda de Melo Garcia" => "Fernanda de Melo"
+		"André dos Santos Pereira Lima" => "André dos Santos"
+	```
+
   - **MendixLogout**
 	```
 	Logs out the current user from session.
